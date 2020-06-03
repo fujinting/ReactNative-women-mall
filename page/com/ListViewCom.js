@@ -22,7 +22,7 @@ export default class ListViewCom extends React.Component {
     // 获取数据
     
     getData (){
-        fetch(`http://123.207.32.32:8000/api/m3/home/data?type=pop&page=${this.state.pagenum}`)
+        fetch(`http://xx.xx.xx.xx:8000/api/m3/home/data?type=pop&page=${this.state.pagenum}`)
         .then((response) => response.json())
         .then((responseJson) => {
     
